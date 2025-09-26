@@ -1,0 +1,34 @@
+[
+    {
+        "name": "superadmin",
+        "description": "Superadmin has all access to perform all operations on the platform ",
+        "slug": "superadmin"
+    },
+
+    {
+        "name": "admin",
+        "description": "admin has limited access to perform operations on the platform",
+        "slug": "admin"
+    },
+    
+    {
+        "name": "business",
+        "description": "businesses are corporates, smes, smbs and entrepreneur",
+        "slug": "business"
+    },
+    {
+        "name": "team",
+        "description": "teams are attached to businesses on the platform",
+        "slug": "team"
+    },
+    {
+        "name": "writer",
+        "description": "writers people who manages articles and documentations on the platform",
+        "slug": "writer"
+    },
+    {
+        "name": "user",
+        "description": "everyone is a user",
+        "slug": "user"
+    }
+]

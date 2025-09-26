@@ -1,0 +1,22 @@
+[
+    {   
+        "name": "MTN Nigeria",
+        "description": "MTN Nigeria mobile network",
+        "label": "mtn"
+    },
+    {   
+        "name": "GLO Nigeria",
+        "description": "Globacom Nigeria mobile network",
+        "label": "glo"
+    },
+    {   
+        "name": "AIRTEL Nigeria",
+        "description": "Airtel Nigeria mobile network",
+        "label": "airtel"
+    },
+    {   
+        "name": "9 Mobile Nigeria",
+        "description": "9 Mobile Nigeria mobile network",
+        "label": "9mobile"
+    }
+]

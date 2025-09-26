@@ -1,0 +1,45 @@
+name: Build and Deploy Staging
+on:
+  push:
+    branches:
+      - 'staging'
+  workflow_dispatch:
+jobs:
+  setup:
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server and Setup
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin staging
+            cd auth && npm i --force
+            cd .. && cd blog && npm i --force
+            cd .. && cd resource && npm i --force
+            cd .. && cd vace && npm i --force
+            cd ..
+  deploy:
+      needs: [setup]
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server and Deploy
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin staging
+            git add .
+            git commit -m "fixed--pull"
+            pm2 restart all
+            pm2 flush

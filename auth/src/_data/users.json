@@ -1,0 +1,19 @@
+[
+    {
+        "firstName": "Super",
+        "lastName": "Administrator",
+        "email": "hello@vacepay.com",
+        "password": "#_vaceAdmin1@",
+        "savedPassword": "#_vaceAdmin1@",
+        "passwordType": "self",
+        "userType": "superadmin",
+        "isSuper": true,
+        "isActivated": true,
+        "isAdmin": false,
+        "isBusiness": false,
+        "isTeam": false,
+        "isWriter": false,
+        "isUser": true,
+        "isActive": true
+    }
+]

@@ -1,0 +1,81 @@
+name: Setup and Deploy Production
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - 'master'
+  workflow_dispatch:
+jobs:
+  setup_one:
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server-one and Setup
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.LIVE_SSH_HOST_LB1 }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.LIVE_SSH_KEY_LB1 }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin develop
+            cd auth && npm i --force
+            cd .. && cd blog && npm i --force
+            cd .. && cd resource && npm i --force
+            cd .. && cd vace && npm i --force
+            cd ..
+  deploy_one:
+      needs: [setup_one]
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server-one and Deploy
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.LIVE_SSH_HOST_LB1 }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.LIVE_SSH_KEY_LB1 }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin master
+            pm2 restart all
+            pm2 flush
+  setup_two:
+      needs: [deploy_one]
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server-one and Setup
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.LIVE_SSH_HOST_B }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.LIVE_SSH_KEY_B }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin develop
+            cd auth && npm i --force
+            cd .. && cd blog && npm i --force
+            cd .. && cd resource && npm i --force
+            cd .. && cd vace && npm i --force
+            cd ..
+  deploy_two:
+      needs: [setup_two]
+      runs-on: ubuntu-latest
+      steps: 
+      - name: SSH into server-one and Deploy
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.LIVE_SSH_HOST_B }}
+          username: ${{ secrets.SSH_USERNAME }}
+          passphrase: ${{ secrets.SSH_PASS }}
+          key: ${{ secrets.LIVE_SSH_KEY_B }}
+          script: |
+            cd vacepay-backend-api
+            git config pull.rebase false
+            git pull origin master
+            pm2 restart all
+            pm2 flush

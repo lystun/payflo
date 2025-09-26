@@ -1,0 +1,77 @@
+[
+    {
+        "name": "English",
+        "label": "English",
+        "code": "en"
+    },
+    {
+        "name": "Русский",
+        "code": "ru"
+    },
+    {
+        "name": "Chinese",
+        "label": "简体中文",
+        "code": "cn"
+    },
+    {
+        "name": "Tiếng Việt",
+        "label": "Tiếng Việt",
+        "code": "vn"
+    },
+    {
+        "name": "Turkish",
+        "label": "Türkçe",
+        "code": "tr"
+    },
+    {
+        "name": "繁體中文",
+        "label": "繁體中文",
+        "code": "tw"
+    },
+    {
+        "name": "Korean",
+        "label": "한국어",
+        "code": "kr"
+    },
+    {
+        "name": "Spanish (Internacional)",
+        "label": "Español (Internacional)",
+        "code": "es"
+    },
+    {
+        "name": "Spanish (Latinoamérica)",
+        "label": "Español (Latinoamérica)",
+        "code": "es-la"
+    },
+    {
+        "name": "French",
+        "label": "Français",
+        "code": "fr"
+    },
+    {
+        "name": "Deutsch",
+        "label": "Deutsch",
+        "code": "de"
+    },
+    {
+        "name": "Nederlands",
+        "label": "Nederlands",
+        "code": "nl"
+    },
+    {
+        "name": "Portugese",
+        "label": "Português",
+        "code": "pt"
+    },
+    {
+        "name": "Italian",
+        "label": "Italiano",
+        "code": "it"
+    },
+    {
+        "name": "Polski",
+        "label": "Polski",
+        "code": "pl"
+    }
+
+]

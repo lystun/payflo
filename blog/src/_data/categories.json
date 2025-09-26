@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Design",
+        "code": "DES",
+        "description": "For design related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Career",
+        "code": "CAE",
+        "description": "For career development related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Workplace",
+        "code": "WOK",
+        "description": "For workplace related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Tech",
+        "code": "TEH",
+        "description": "For technology related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Software",
+        "code": "SOF",
+        "description": "For software development related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Business",
+        "code": "BUZ",
+        "description": "For business related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Health",
+        "code": "HEH",
+        "description": "For health related articles or journals",
+        "isEnabled": true
+    }
+
+]

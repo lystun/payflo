@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Role",
+        "code": "",
+        "entity": "role",
+        "actions": []
+    },
+    {
+        "name": "Audit",
+        "code": "",
+        "entity": "audit",
+        "actions": []
+    },
+    {
+        "name": "Kyb",
+        "code": "",
+        "entity": "kyb",
+        "actions": []
+    },
+    {
+        "name": "Kyc",
+        "code": "",
+        "entity": "kyc",
+        "actions": []
+    },
+    {
+        "name": "Notification",
+        "code": "",
+        "entity": "notification",
+        "actions": []
+    },
+    {
+        "name": "System",
+        "code": "",
+        "entity": "system",
+        "actions": []
+    },
+    {
+        "name": "User",
+        "code": "",
+        "entity": "user",
+        "actions": []
+    },
+    {
+        "name": "Verification",
+        "code": "",
+        "entity": "verification",
+        "actions": []
+    },
+    {
+        "name": "Account",
+        "code": "",
+        "entity": "account",
+        "actions": []
+    },
+    {
+        "name": "Beneficiary",
+        "code": "",
+        "entity": "beneficiary",
+        "actions": []
+    },
+    {
+        "name": "Business",
+        "code": "",
+        "entity": "business",
+        "actions": []
+    },
+    {
+        "name": "Chargeback",
+        "code": "",
+        "entity": "chargeback",
+        "actions": []
+    },
+    {
+        "name": "Invoice",
+        "code": "",
+        "entity": "invoice",
+        "actions": []
+    },
+    {
+        "name": "PaymentLink",
+        "code": "",
+        "entity": "paymentlink",
+        "actions": []
+    },
+    {
+        "name": "Product",
+        "code": "",
+        "entity": "product",
+        "actions": []
+    },
+    {
+        "name": "Refund",
+        "code": "",
+        "entity": "refund",
+        "actions": []
+    },
+    {
+        "name": "Settlement",
+        "code": "",
+        "entity": "settlement",
+        "actions": []
+    },
+    {
+        "name": "Subaccount",
+        "code": "",
+        "entity": "subaccount",
+        "actions": []
+    },
+    {
+        "name": "Transaction",
+        "code": "",
+        "entity": "transaction",
+        "actions": []
+    },
+    {
+        "name": "Wallet",
+        "code": "",
+        "entity": "wallet",
+        "actions": []
+    }
+]

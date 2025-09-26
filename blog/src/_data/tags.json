@@ -1,0 +1,38 @@
+[
+    {
+        "name": "UI/UX",
+        "description": "For design, ui/ux related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "3D Modelling",
+        "description": "For 3d modelling related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Frontend",
+        "description": "For frontend engineering related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "UI",
+        "description": "For user interface related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Work",
+        "description": "For workplace related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "management",
+        "description": "For management related articles or journals",
+        "isEnabled": true
+    },
+    {
+        "name": "Career",
+        "description": "For career related articles or journals",
+        "isEnabled": true
+    }
+
+]

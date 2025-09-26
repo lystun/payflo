@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Article",
+        "code": "ART",
+        "description": "For posts that are mainly for articles",
+        "isEnabled": true
+    },
+    {
+        "name": "Journal",
+        "code": "JOU",
+        "description": "For sharing experimental journeys and thoughts",
+        "isEnabled": true
+    }
+
+]

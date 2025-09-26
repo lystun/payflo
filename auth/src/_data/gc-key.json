@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "vacepay",
+    "private_key_id": "8eca5d69ef52cde9d38b04747f8681d9f7c0185e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnOh/cE2JyC3qG\nZ/hy9Ft8wQSzptK1x0wDBc7LGMfJpW0bcydYQ/2r9Q1fW0oXr7iOibm+ZMjq2APS\nuPOqkAot6NpV3aAFzo7JdTfqVU1YfpFQkdE66ffkhlD7S4CnsMGD3tAUAVxvyClp\n3T3l+ISVOZxJX1CT8Aty1cB6ZaLr80IrS0SGqPRCXynK4u0Lhm+xCYep7645e6n+\nK1I7a4AB6rlGdczOlr29SIK5k4gF7tvHx3eZTZyVt3yItCgX+ZYWn6hiP1Oirsa5\nE5ZW3G6/xwLXiYekROsi5Gix6l7pO9ah9XLZpTYFkcUHjHl2BGaWTu1mo8H0i1/p\noJerCw3NAgMBAAECggEAA5Om8Exa1/EeaQcKxZyr40Z2nQgVrC0r10m1w1rPlSTM\naWCkaAsmPxoR8+buNgT8Z9ISzrt1n65IoKZzkcOccCBxoRIJNO6W18DB1imGarzk\nS0qfJMkx0+m6jDFwekW50eH/ZdokmcB4gErq4sMWxOFTUi9veAaTnBxtzkBjxHOp\n4KxGuQ6nN9GyrvylVDMqqE5DT/5yAnYxBVhotF62Vdzary405JtWwpauhq8Y6vDs\npa+9Gftn7CmX8T2WJXc9INikml9LVBYvUKHcsKDlXS6CnD2ibpyQma91fPjnZdzp\ns9Uq6+90lDAEwRWLjC7BAhHTgWMsP/BJkEzz2y8vaQKBgQDmoaxSwa16UUFMnbJf\nArgFUPxW9gCQ9pxkPEZY9jcATA3Ao3CoSZvT6Efyb7VRilGipUrrC5C5oo4xYSY1\nQeug1tL3TRgxIi/cohtkvk/8a/wg5BqN9Kd+Af/A+7DQ84f+X7I94CcilFeiSCNI\nvRDAWufHTUR21O8pRDdgUmRptQKBgQC5nw05wXGWQR+ZNG9Gm+onz+Ft1izu+1YT\nZAk3Z43zEo7vOZ4UteHfNQeqSsI01Qow2brRjAwS1O7srKPWywbFy7wsTwTyT0Zc\n83YmF40iAIlnCqDY2/LbnnCQEu292eLcGEgXamEsHeKHuQKHYkjyphakNgMthGog\niC/6pJJCuQKBgHzF+vTK04/ZZfqNVnMQhX5a0io57RSAVxvjgCuhCSCgBNCzm79w\nE14RzNrclLwImSHlSyLenu3PhB4y8PjfMRtTHc+tZekvFbXH/goC7EMkKMOipLso\nIXWKn1NI1+Az4N895rCTFJkgqEijvnMb1nQ6uiqZIvEnQjyRK2RxLuIBAoGAICHx\ndysOj7UsVCgojy+UZFnvK0VlN+WYa/joQ4gQoaB3z9/IhstJk4spjYgtgFnUzsoS\nNg4pVOU5iw0Du74fqQPwyjbPo2anxpV6wXNYQieXoZfMal4A95XA5J/yOehLBlDJ\nwgvvUGTH/zi+wFL6T88ComCbQjjm6kTJEXmFvDkCgYEAgF7ZvTDFFXKphbUzTNj9\nps5tFf5OF4ZuPaDPADmuVukSS/vTG74U5ixFgnA1PKmgGnwAlGwa4L+1N/YPcvGE\nwlHvW06OThEoBkaYDoDwHzVdzKSmmwS9PhtYmSZfEUlDN7Of7VHgK9LbOFGJ9iHG\ngPG0TKd0nzFanCKmPIUBfaI=\n-----END PRIVATE KEY-----\n",
+    "client_email": "vacepay@vacepay.iam.gserviceaccount.com",
+    "client_id": "107791695296268562566",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vacepay%40vacepay.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Bitcoin",
+        "label": "bitcoin",
+        "symbol": "BTC",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "BTC",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "Ethereum",
+        "label": "ethereum",
+        "symbol": "ETH",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "ETH",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "Litecoin",
+        "label": "litecoin",
+        "symbol": "LTC",
+        "isFiat": false,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "LTC",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "Tether",
+        "label": "usd_tether",
+        "symbol": "USDT",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "BTC",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "NairaToken",
+        "label": "naira_token",
+        "symbol": "NGNT",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "ETH",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "BSC Naira Token",
+        "label": "bsc_naira_token",
+        "symbol": "BSCNGNT",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "ETH",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "name": "USD Coin",
+        "label": "usd_coin",
+        "symbol": "USDC",
+        "isFiat": true,
+        "isStable": false,
+        "isMajor": true,
+        "isEnabled": true,
+        "blockchain": "ETH",
+        "trades": [
+            {
+                "name": "p2p",
+                "fee": 0.01,
+                "enabled": true
+            },
+            {
+                "name": "swap",
+                "fee": 0.01,
+                "enabled": true
+            }
+        ]
+    }
+
+]
